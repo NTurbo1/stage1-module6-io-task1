@@ -1,4 +1,0 @@
-Name: bnsET
-Age: 17
-Email: bnsET
-Phone: 17

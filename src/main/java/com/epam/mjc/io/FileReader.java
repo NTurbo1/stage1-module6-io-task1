@@ -18,7 +18,7 @@ public class FileReader {
             email = reader.readLine().split(": ")[1];
             phone = reader.readLine().split(": ")[1];
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
 
         return new Profile(name, Integer.parseInt(age), email, Long.parseLong(phone));
